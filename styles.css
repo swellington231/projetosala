@@ -1,0 +1,43 @@
+body{
+    color:white;
+    background: black;
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+}
+header {
+    border:solid 2px blue;
+    padding: 20px;
+    font-size: 32px;
+    color:red;
+}
+.chamada{
+    background: rgb(145, 177, 212);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+img {
+    height: 200px;
+}
+.categoria-video {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+.categoria-video img {
+    opacity: 0.5;
+    height: 200px;
+}
+.categoria-video img:hover {
+    opacity: 1.0;
+    border: 3px solid green;
+}
+.categoria h2 {
+    color: blue;
+}
